@@ -1,0 +1,37 @@
+{
+  "name": "VLSI Career Launchpad",
+  "short_name": "VLSI Launch",
+  "description": "Your complete VLSI learning roadmap, projects & alarm",
+  "start_url": "./vlsi-guide.html",
+  "display": "standalone",
+  "background_color": "#09090f",
+  "theme_color": "#00e5ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Roadmap",
+      "url": "./vlsi-guide.html#roadmap",
+      "description": "Go to learning roadmap"
+    },
+    {
+      "name": "Projects",
+      "url": "./vlsi-guide.html#projects",
+      "description": "View VLSI projects"
+    }
+  ]
+}
